@@ -21,4 +21,11 @@ public class Aluno extends Pessoa {
     public String getDescricao() {
         return "Aluno: " + getNome() + " - Matrícula: " + matricula;
     }
+    
+    @Override
+    public String toString() {
+        return getNome(); // Exibe apenas o nome do autor
+    }
+    
 }
+
